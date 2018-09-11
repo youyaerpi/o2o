@@ -1,0 +1,9 @@
+2018-08-19 21:55:29.809 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==>  Preparing: select shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time from tb_shop_category order by priority desc 
+2018-08-19 21:55:29.834 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==> Parameters: 
+2018-08-19 21:55:29.853 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     <==      Total: 18
+2018-08-19 21:55:40.485 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==>  Preparing: select shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time from tb_shop_category order by priority desc 
+2018-08-19 21:55:40.590 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==> Parameters: 
+2018-08-19 21:55:40.612 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     <==      Total: 18
+2018-08-19 21:55:58.958 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==>  Preparing: select shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time from tb_shop_category order by priority desc 
+2018-08-19 21:55:58.978 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==> Parameters: 
+2018-08-19 21:55:58.996 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     <==      Total: 18

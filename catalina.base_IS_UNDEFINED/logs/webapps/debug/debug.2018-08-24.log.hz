@@ -1,0 +1,54 @@
+2018-08-24 00:04:46.248 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2018-08-24 00:04:46.358 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==> Parameters: 0(Integer), 3(Integer)
+2018-08-24 00:04:46.413 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     <==      Total: 3
+2018-08-24 00:04:46.436 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==>  Preparing: SELECT count(1) FROM tb_product 
+2018-08-24 00:04:46.437 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==> Parameters: 
+2018-08-24 00:04:46.461 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     <==      Total: 1
+2018-08-24 00:05:44.805 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?, ?) 
+2018-08-24 00:05:44.846 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==> Parameters: 测试1(String), 测试Desc1(String), test1(String), null, null, 0(Integer), 2018-08-24 00:05:44.508(Timestamp), 2018-08-24 00:05:44.508(Timestamp), 1(Integer), 9(Long), 17(Long)
+2018-08-24 00:05:44.901 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     <==    Updates: 1
+2018-08-24 00:05:44.919 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?, ?) 
+2018-08-24 00:05:44.923 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==> Parameters: 测试2(String), 测试Desc2(String), test2(String), null, null, 0(Integer), 2018-08-24 00:05:44.508(Timestamp), 2018-08-24 00:05:44.508(Timestamp), 0(Integer), 10(Long), 17(Long)
+2018-08-24 00:05:44.956 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     <==    Updates: 1
+2018-08-24 00:05:44.958 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?, ?) 
+2018-08-24 00:05:44.961 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==> Parameters: 测试3(String), 测试Desc3(String), test3(String), null, null, 0(Integer), 2018-08-24 00:05:44.508(Timestamp), 2018-08-24 00:05:44.508(Timestamp), 1(Integer), 11(Long), 18(Long)
+2018-08-24 00:05:44.990 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     <==    Updates: 1
+2018-08-24 00:06:40.689 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2018-08-24 00:06:40.721 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==> Parameters: 0(Integer), 3(Integer)
+2018-08-24 00:06:40.736 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     <==      Total: 3
+2018-08-24 00:06:40.742 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==>  Preparing: SELECT count(1) FROM tb_product 
+2018-08-24 00:06:40.742 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==> Parameters: 
+2018-08-24 00:06:40.743 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     <==      Total: 1
+2018-08-24 08:49:55.822 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     ==>  Preparing: UPDATE tb_product SET product_name=? WHERE product_id = ? AND shop_id=? 
+2018-08-24 08:49:55.859 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     ==> Parameters: 美式咖啡(String), 4(Long), 15(Long)
+2018-08-24 08:49:55.913 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     <==    Updates: 1
+2018-08-24 08:58:51.925 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2018-08-24 08:58:51.951 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==> Parameters: 0(Integer), 3(Integer)
+2018-08-24 08:58:51.966 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     <==      Total: 3
+2018-08-24 08:58:51.994 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==>  Preparing: SELECT count(1) FROM tb_product 
+2018-08-24 08:58:51.994 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==> Parameters: 
+2018-08-24 08:58:52.016 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     <==      Total: 1
+2018-08-24 09:03:23.636 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==>  Preparing: SELECT product_id , product_name , product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2018-08-24 09:03:23.661 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==> Parameters: 0(Integer), 3(Integer)
+2018-08-24 09:03:23.674 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     <==      Total: 3
+2018-08-24 09:03:23.679 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==>  Preparing: SELECT count(1) FROM tb_product 
+2018-08-24 09:03:23.679 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==> Parameters: 
+2018-08-24 09:03:23.680 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     <==      Total: 1
+2018-08-24 09:10:09.021 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==>  Preparing: SELECT product_id , product_name , product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2018-08-24 09:10:09.048 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==> Parameters: 0(Integer), 3(Integer)
+2018-08-24 09:10:09.062 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     <==      Total: 3
+2018-08-24 09:10:09.067 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==>  Preparing: SELECT count(1) FROM tb_product 
+2018-08-24 09:10:09.067 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==> Parameters: 
+2018-08-24 09:10:09.068 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     <==      Total: 1
+2018-08-24 09:10:09.069 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==>  Preparing: SELECT product_id , product_name , product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, product_category_id, shop_id FROM tb_product WHERE product_name like '%测试%' ORDER BY priority DESC LIMIT ?,?; 
+2018-08-24 09:10:09.070 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     ==> Parameters: 0(Integer), 3(Integer)
+2018-08-24 09:10:09.105 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductList -     <==      Total: 3
+2018-08-24 09:10:09.106 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==>  Preparing: SELECT count(1) FROM tb_product WHERE product_name like '%测试%' 
+2018-08-24 09:10:09.107 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     ==> Parameters: 
+2018-08-24 09:10:09.107 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductCount -     <==      Total: 1
+2018-08-24 11:27:52.193 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine -     ==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line ORDER BY priority DESC 
+2018-08-24 11:27:52.218 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine -     ==> Parameters: 
+2018-08-24 11:27:52.232 [main] DEBUG com.imooc.o2o.dao.HeadLineDao.queryHeadLine -     <==      Total: 4
+2018-08-24 14:38:31.441 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==>  Preparing: select shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time from tb_shop_category WHERE parent_id is null order by priority desc 
+2018-08-24 14:38:31.468 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==> Parameters: 
+2018-08-24 14:38:31.482 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     <==      Total: 6

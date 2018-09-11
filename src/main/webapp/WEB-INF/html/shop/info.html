@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>个人商铺管理系统</title>
+<script type="text/javascript">
+	function delayURL() {
+		var delay = document.getElementById("time").innerHTML;
+		if (delay > 0) {
+			delay--;
+			document.getElementById("time").innerHTML = delay;
+		} else {
+			window.top.location = "shoplists";
+			return;
+		}
+		setTimeout('delayURL()', 1000); //必须要加单引号
+	}
+</script>
+</head>
+
+<body class="easyui-layout">
+	<div region="center" title="功能区">
+		<div class="easyui-tabs" id="centerTab" fit="true" border="false">
+			<div title="欢迎页" style="padding: 20px; overflow: hidden;">
+				<div style="margin-top: 20px;">
+					<h3>你好，欢迎登录个人商铺后台管理系统</h3>
+					<h3>
+						<font color="red" size="4"><span id="time">4</span>秒钟自动跳转到个人商店列表</font>
+					</h3>
+					<script>
+						delayURL();
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

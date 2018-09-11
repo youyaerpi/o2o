@@ -1,0 +1,18 @@
+2018-08-27 09:11:29.773 [main] DEBUG c.imooc.o2o.dao.LoginDao.queryShopByUsernameAndPassword -     ==>  Preparing: select user_id, name, password, gender, email, profile_img, create_time, last_edit_time, user_type, enable_status from tb_person_info where name=? and password=? 
+2018-08-27 09:11:29.812 [main] DEBUG c.imooc.o2o.dao.LoginDao.queryShopByUsernameAndPassword -     ==> Parameters: 谢翔(String), 12345(String)
+2018-08-27 09:11:29.827 [main] DEBUG c.imooc.o2o.dao.LoginDao.queryShopByUsernameAndPassword -     <==      Total: 1
+2018-08-27 09:27:52.377 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==>  Preparing: select user_id, name, password, gender, email, profile_img, create_time, last_edit_time, user_type, enable_status from tb_person_info where name=? 
+2018-08-27 09:27:52.400 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==> Parameters: 谢翔(String)
+2018-08-27 09:27:52.412 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     <==      Total: 1
+2018-08-27 09:28:46.489 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==>  Preparing: select user_id, password, gender, email, profile_img, create_time, last_edit_time, user_type, enable_status from tb_person_info where name=? 
+2018-08-27 09:28:46.511 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==> Parameters: 谢翔(String)
+2018-08-27 09:28:46.525 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     <==      Total: 1
+2018-08-27 09:29:29.348 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==>  Preparing: select user_id, password, gender, email, profile_img, create_time, last_edit_time, user_type, enable_status from tb_person_info where name=? 
+2018-08-27 09:29:29.374 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==> Parameters: 谢翔(String)
+2018-08-27 09:29:29.386 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     <==      Total: 1
+2018-08-27 09:30:11.493 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==>  Preparing: select user_id, name, password, gender, email, profile_img, create_time, last_edit_time, user_type, enable_status from tb_person_info where name=? 
+2018-08-27 09:30:11.513 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==> Parameters: 谢翔(String)
+2018-08-27 09:30:11.526 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     <==      Total: 1
+2018-08-27 09:30:42.660 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==>  Preparing: select user_id, name, password, gender, email, profile_img, create_time, last_edit_time, user_type, enable_status from tb_person_info where name=? 
+2018-08-27 09:30:42.689 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     ==> Parameters: king(String)
+2018-08-27 09:30:42.705 [main] DEBUG com.imooc.o2o.dao.LoginDao.queryShopByUsername -     <==      Total: 1

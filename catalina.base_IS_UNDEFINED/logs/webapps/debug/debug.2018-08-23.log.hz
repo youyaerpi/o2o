@@ -1,0 +1,102 @@
+2018-08-23 15:37:43.123 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?, ?) 
+2018-08-23 15:37:43.156 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==> Parameters: 测试1(String), 测试Desc1(String), test1(String), null, null, 0(Integer), 2018-08-23 15:37:42.872(Timestamp), 2018-08-23 15:37:42.872(Timestamp), 1(Integer), 9(Long), 17(Long)
+2018-08-23 15:37:43.222 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     <==    Updates: 1
+2018-08-23 15:37:43.228 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?, ?) 
+2018-08-23 15:37:43.229 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==> Parameters: 测试2(String), 测试Desc2(String), test2(String), null, null, 0(Integer), 2018-08-23 15:37:42.872(Timestamp), 2018-08-23 15:37:42.872(Timestamp), 0(Integer), 10(Long), 17(Long)
+2018-08-23 15:37:43.299 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     <==    Updates: 1
+2018-08-23 15:37:43.301 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?, ?) 
+2018-08-23 15:37:43.305 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     ==> Parameters: 测试3(String), 测试Desc3(String), test3(String), null, null, 0(Integer), 2018-08-23 15:37:42.872(Timestamp), 2018-08-23 15:37:42.872(Timestamp), 1(Integer), 11(Long), 18(Long)
+2018-08-23 15:37:43.332 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct -     <==    Updates: 1
+2018-08-23 17:32:10.473 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:32:10.497 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:32:10.178(Timestamp), 20(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:32:10.178(Timestamp), 2(Long)
+2018-08-23 17:33:36.987 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:33:37.015 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:33:36.672(Timestamp), 20(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:33:36.672(Timestamp), 2(Long)
+2018-08-23 17:33:52.637 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:33:52.669 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:33:52.326(Timestamp), 20(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:33:52.326(Timestamp), 2(Long)
+2018-08-23 17:33:52.818 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2018-08-23 17:33:52.818 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     ==> Parameters: 20(Long)
+2018-08-23 17:33:52.819 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     <==    Updates: 0
+2018-08-23 17:35:07.053 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:35:07.074 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:35:06.778(Timestamp), 4(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:35:06.778(Timestamp), 4(Long)
+2018-08-23 17:35:07.126 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     <==    Updates: 2
+2018-08-23 17:35:32.854 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2018-08-23 17:35:32.889 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     ==> Parameters: 4(Long)
+2018-08-23 17:35:32.917 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     <==    Updates: 5
+2018-08-23 17:36:00.572 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:36:00.601 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:36:00.279(Timestamp), 4(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:36:00.279(Timestamp), 4(Long)
+2018-08-23 17:36:00.653 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     <==    Updates: 2
+2018-08-23 17:36:09.140 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2018-08-23 17:36:09.163 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     ==> Parameters: 4(Long)
+2018-08-23 17:36:09.232 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     <==    Updates: 2
+2018-08-23 17:38:19.586 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:38:19.612 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:38:19.297(Timestamp), 4(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:38:19.297(Timestamp), 4(Long)
+2018-08-23 17:38:19.666 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     <==    Updates: 2
+2018-08-23 17:45:01.279 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:45:01.302 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:45:01.0(Timestamp), 4(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:45:01.0(Timestamp), 4(Long)
+2018-08-23 17:45:01.359 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     <==    Updates: 2
+2018-08-23 17:45:01.374 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2018-08-23 17:45:01.375 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==> Parameters: 4(Long)
+2018-08-23 17:45:01.403 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     <==      Total: 4
+2018-08-23 17:45:31.299 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:45:31.324 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:45:30.992(Timestamp), 4(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:45:30.992(Timestamp), 4(Long)
+2018-08-23 17:45:31.372 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     <==    Updates: 2
+2018-08-23 17:45:31.379 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2018-08-23 17:45:31.379 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==> Parameters: 4(Long)
+2018-08-23 17:45:31.391 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     <==      Total: 6
+2018-08-23 17:46:33.303 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:46:33.348 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:46:33.001(Timestamp), 4(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:46:33.001(Timestamp), 4(Long)
+2018-08-23 17:46:33.389 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     <==    Updates: 2
+2018-08-23 17:46:33.396 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2018-08-23 17:46:33.396 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==> Parameters: 4(Long)
+2018-08-23 17:46:33.409 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     <==      Total: 8
+2018-08-23 17:47:11.282 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:47:11.308 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:47:10.985(Timestamp), 4(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:47:10.985(Timestamp), 4(Long)
+2018-08-23 17:47:11.337 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     <==    Updates: 2
+2018-08-23 17:47:11.344 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2018-08-23 17:47:11.344 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==> Parameters: 4(Long)
+2018-08-23 17:47:11.356 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     <==      Total: 4
+2018-08-23 17:48:33.243 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-08-23 17:48:33.270 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2018-08-23 17:48:32.965(Timestamp), 4(Long), 图片2(String), null, 1(Integer), 2018-08-23 17:48:32.965(Timestamp), 4(Long)
+2018-08-23 17:48:33.311 [main] DEBUG com.imooc.o2o.dao.ProductImgDao.batchInsertProductImg -     <==    Updates: 2
+2018-08-23 17:48:33.321 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2018-08-23 17:48:33.322 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     ==> Parameters: 4(Long)
+2018-08-23 17:48:33.333 [main] DEBUG com.imooc.o2o.dao.ProductDao.queryProductById -     <==      Total: 2
+2018-08-23 17:48:33.338 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2018-08-23 17:48:33.338 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     ==> Parameters: 4(Long)
+2018-08-23 17:48:33.457 [main] DEBUG c.i.o2o.dao.ProductImgDao.deleteProductImgByProductId -     <==    Updates: 2
+2018-08-23 17:51:19.463 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     ==>  Preparing: UPDATE tb_product SET product_name=? WHERE product_id = ? AND shop_id=? 
+2018-08-23 17:51:19.495 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     ==> Parameters: 英式咖啡(String), 4(Long), null
+2018-08-23 17:51:19.496 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     <==    Updates: 0
+2018-08-23 17:53:31.699 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     ==>  Preparing: UPDATE tb_product SET product_name=? WHERE product_id = ? AND shop_id=? 
+2018-08-23 17:53:31.735 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     ==> Parameters: 英式咖啡(String), 4(Long), null
+2018-08-23 17:53:31.736 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     <==    Updates: 0
+2018-08-23 17:54:17.108 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     ==>  Preparing: UPDATE tb_product SET product_name=? WHERE product_id = ? AND shop_id=? 
+2018-08-23 17:54:17.136 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     ==> Parameters: 英式咖啡(String), 4(Long), 15(Long)
+2018-08-23 17:54:17.256 [main] DEBUG com.imooc.o2o.dao.ProductDao.updateProduct -     <==    Updates: 1
+2018-08-23 22:52:28.456 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea -     ==>  Preparing: SELECT area_id,area_name,priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2018-08-23 22:52:28.479 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea -     ==> Parameters: 
+2018-08-23 22:52:28.492 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea -     <==      Total: 4
+2018-08-23 22:52:49.377 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList -     ==>  Preparing: select s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id=? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id order by s.priority desc LIMIT ?,?; 
+2018-08-23 22:52:49.402 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList -     ==> Parameters: 8(Long), 0(Integer), 6(Integer)
+2018-08-23 22:52:49.419 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList -     <==      Total: 6
+2018-08-23 22:52:49.424 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount -     ==>  Preparing: select count(1) from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id=? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id 
+2018-08-23 22:52:49.425 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount -     ==> Parameters: 8(Long)
+2018-08-23 22:52:49.426 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount -     <==      Total: 1
+2018-08-23 22:52:49.427 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList -     ==>  Preparing: select s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id=? and s.owner_id=? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id order by s.priority desc LIMIT ?,?; 
+2018-08-23 22:52:49.428 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList -     ==> Parameters: 18(Long), 8(Long), 0(Integer), 2(Integer)
+2018-08-23 22:52:49.430 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList -     <==      Total: 2
+2018-08-23 22:52:49.430 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount -     ==>  Preparing: select count(1) from tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id=? and s.owner_id=? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id 
+2018-08-23 22:52:49.431 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount -     ==> Parameters: 18(Long), 8(Long)
+2018-08-23 22:52:49.431 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount -     <==      Total: 1
+2018-08-23 22:53:00.831 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryByShopId -     ==>  Preparing: select s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from tb_shop s, tb_area a, tb_shop_category sc where s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id and s.shop_id=? 
+2018-08-23 22:53:00.858 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryByShopId -     ==> Parameters: 15(Long)
+2018-08-23 22:53:00.873 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryByShopId -     <==      Total: 1
+2018-08-23 22:53:06.897 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop -     ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id, shop_name,shop_desc,shop_addr,phone,shop_img,priority, create_time,last_edit_time, enable_status,advice) VALUES (?,?,?, ?,?,?,?,?, ?,?,?, ?,?) 
+2018-08-23 22:53:06.929 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop -     ==> Parameters: 8(Long), 3(Integer), 18(Long), 测试的店铺5(String), 测试5(String), 南昌5(String), 124335555(String), 测试5(String), 1(Integer), 2018-08-23 22:53:06.641(Timestamp), 2018-08-23 22:53:06.641(Timestamp), 1(Integer), 审核中(String)
+2018-08-23 22:53:06.996 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop -     <==    Updates: 1
+2018-08-23 22:53:19.546 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop -     ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+2018-08-23 22:53:19.570 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop -     ==> Parameters: 测试(String), 测试：赣州(String), 2018-08-23 22:53:19.266(Timestamp), 28(Long)
+2018-08-23 22:53:19.619 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop -     <==    Updates: 1
+2018-08-23 22:53:30.286 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==>  Preparing: select shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time from tb_shop_category WHERE parent_id is not null order by priority desc 
+2018-08-23 22:53:30.312 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     ==> Parameters: 
+2018-08-23 22:53:30.327 [main] DEBUG com.imooc.o2o.dao.ShopCategoryDao.queyShopCategoryList -     <==      Total: 12

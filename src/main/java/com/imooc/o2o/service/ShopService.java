@@ -1,0 +1,46 @@
+package com.imooc.o2o.service;
+import com.imooc.o2o.domain.Shop;
+import com.imooc.o2o.dto.ImageHolder;
+import com.imooc.o2o.dto.ShopExecution;
+import com.imooc.o2o.exceptions.ShopOperationException;
+
+public interface ShopService {
+	/**
+	 * 按条件分页
+	 * @param shopCondition
+	 * @param pageIndex
+	 * @param pageSize
+	 * @return
+	 */
+
+	public ShopExecution getShopList(Shop shopCondition, int pageIndex, int pageSize);
+
+	/**
+	 * 通过店铺id得到店铺信息
+	 * 
+	 * @param shopId
+	 * @return
+	 */
+	Shop getShopInfoById(long shopId);
+
+	/**
+	 * 更新店铺信息，包括图片处理
+	 * 
+	 * @param shop
+	 * @param shopImgInputStream
+	 * @param fileName
+	 * @return
+	 */
+	ShopExecution modifyShop(Shop shop, ImageHolder thumbnail) throws ShopOperationException;
+
+	/**
+	 * 添加店铺
+	 * 
+	 * @param shop
+	 * @param shopImgInputStream
+	 * @param fileName
+	 * @return
+	 */
+	ShopExecution addShop(Shop shop, ImageHolder thumbnail) throws ShopOperationException;
+
+}
